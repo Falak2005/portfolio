@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Falak Joneja | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-text">FJ<span class="loader-dot">.</span></div>
+  </div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">FJ<span class="logo-dot">.</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#others">Others</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="FALAK_JONEJA_RESUME.pdf" download="FALAK_JONEJA_RESUME.pdf" target="_blank" class="resume-btn" id="resumeBtn">
+          <i class="fas fa-download"></i> Resume
+        </a>
+        <div class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="home-section">
+    <div class="home-bg-text">FALAK</div>
+    <div class="intro">
+      <div class="intro-tag">👋 Available for opportunities</div>
+      <h1>Hello, I'm<br><span class="name-highlight">Falak Joneja</span></h1>
+      <div class="typewriter-container">
+        <span class="typewriter-prefix">I build </span>
+        <span class="typewriter" id="typewriter"></span>
+      </div>
+      <p>A final-year Computer Engineering student at Maharishi Markandeshwar University — passionate about design, code, and creating meaningful digital experiences.</p>
+      <div class="cta-group">
+        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+      </div>
+    </div>
+    <div class="home-stats">
+      <div class="stat-item">
+        <span class="stat-number">4+</span>
+        <span class="stat-label">Projects</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">4th</span>
+        <span class="stat-label">Year B.E.</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">∞</span>
+        <span class="stat-label">Curiosity</span>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+    <div class="section-inner">
+      <div class="section-label">01 — About</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-content">
+        <div class="about-image-wrap">
+          <div class="about-img-frame">
+            <img src="profile.jpeg" alt="Falak Joneja" class="profile-img">
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-lead">Frontend developer and designer with hands-on internship experience, passionate about building functional, visually engaging digital experiences.</p>
+          <p>Currently pursuing B.E. in Computer Engineering at MM University (CGPA: 7.99). I've interned as a Web Developer at Skillcraft and as a Graphic Design Intern at InAmigos Foundation. I combine creativity with technical skills and am always ready to take on challenges that help me grow.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Yamunanagar, Haryana, India
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-university"></i>
+              MM University, Mullana–Ambala
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-envelope"></i>
+              falakjoneja2005@gmail.com
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-phone"></i>
+              +91 9896149184
+            </div>
+          </div>
+          <div class="about-actions">
+            <a href="FALAK_JONEJA_RESUME.pdf" download="FALAK_JONEJA_RESUME.pdf" target="_blank" class="btn btn-primary"><i class="fas fa-download"></i> Download Resume</a>
+            <a href="https://github.com/Falak2005" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="education-section">
+    <div class="section-inner">
+      <div class="section-label">02 — Education</div>
+      <h2 class="section-title">Academic Journey</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024 — 2027</div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>B.Tech — Computer Science Engineering</h3>
+            <p class="timeline-org">Maharishi Markandeshwar (Deemed To Be University), Mullana–Ambala</p>
+            <p class="timeline-desc">CGPA: 7.99 — Continuously learning modern technologies and applying them through practical and academic work.</p>
+            <span class="timeline-badge">Current</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 — 2024</div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-tools"></i></div>
+            <h3>Diploma — Computer & Office Engineering</h3>
+            <p class="timeline-org">Seth Jai Parkash Polytechnic Damla, Haryana (HSBTE)</p>
+            <p class="timeline-desc">Percentage: 80% — Completed a 3-year diploma program with hands-on technical learning and practical project experience. Developed analytical thinking, teamwork, and industry-oriented skills through projects and workshops.</p>
+            <span class="timeline-badge">Completed</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 — 2023</div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-school"></i></div>
+            <h3>Senior Secondary Education (Class 12)</h3>
+            <p class="timeline-org">NIOS — National Institute of Open Schooling</p>
+            <p class="timeline-desc">Percentage: 80% — Completed Class 12 through open schooling alongside my diploma studies to strengthen academic qualifications and maintain eligibility for future opportunities.</p>
+            <span class="timeline-badge">Completed</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020 — 2021</div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-book-open"></i></div>
+            <h3>Secondary Education (Class 10)</h3>
+            <p class="timeline-org">St. Thomas School Jagadhri, Yamuna Nagar, Haryana</p>
+            <p class="timeline-desc">Percentage: 86% — Successfully completed secondary education while developing discipline, adaptability, and foundational academic knowledge.</p>
+            <span class="timeline-badge">Completed</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience-section">
+    <div class="section-inner">
+      <div class="section-label">03 — Experience</div>
+      <h2 class="section-title">Internship Experience</h2>
+      <div class="experience-grid">
+
+        <div class="exp-card" data-aos>
+          <div class="exp-header">
+            <div class="exp-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="exp-meta">
+              <span class="exp-date"><i class="fas fa-calendar-alt"></i> Oct 2024 — Jan 2026</span>
+              <span class="exp-type">Remote</span>
+            </div>
+          </div>
+          <h3>Web Developer Intern</h3>
+          <p class="exp-org">Skillcraft</p>
+          <ul class="exp-points">
+            <li>Learned and applied frontend development using HTML, CSS, and JavaScript</li>
+            <li>Built user-friendly and responsive UI components</li>
+            <li>Focused on clean code practices and good UI/UX principles</li>
+          </ul>
+          <div class="exp-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX</span>
+          </div>
+        </div>
+
+        <div class="exp-card" data-aos>
+          <div class="exp-header">
+            <div class="exp-icon"><i class="fas fa-paint-brush"></i></div>
+            <div class="exp-meta">
+              <span class="exp-date"><i class="fas fa-calendar-alt"></i> May 2025 — Jun 2025</span>
+              <span class="exp-type">Remote</span>
+            </div>
+          </div>
+          <h3>Graphic Designing Intern</h3>
+          <p class="exp-org">InAmigos Foundation (IAF)</p>
+          <ul class="exp-points">
+            <li>Designed engaging graphics and promotional materials for social media</li>
+            <li>Created visual content for digital campaigns using Canva</li>
+            <li>Collaborated with the team to deliver creative assets on time</li>
+          </ul>
+          <div class="exp-tags">
+            <span>Canva</span><span>Graphic Design</span><span>Social Media</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills-section">
+    <div class="section-inner">
+      <div class="section-label">04 — Skills</div>
+      <h2 class="section-title">What I Work With</h2>
+
+      <div class="skills-tabs">
+        <button class="tab-btn active" data-tab="frontend">Frontend</button>
+        <button class="tab-btn" data-tab="backend">Backend</button>
+        <button class="tab-btn" data-tab="tools">Tools</button>
+      </div>
+
+      <div class="skills-panels">
+        <div class="skills-panel active" id="tab-frontend">
+          <div class="skill-card-grid">
+            <div class="skill-card"><div class="skill-icon">🌐</div><div class="skill-name">HTML5</div><div class="skill-level" style="--level: 90%"></div></div>
+            <div class="skill-card"><div class="skill-icon">🎨</div><div class="skill-name">CSS3</div><div class="skill-level" style="--level: 85%"></div></div>
+            <div class="skill-card"><div class="skill-icon">⚡</div><div class="skill-name">JavaScript</div><div class="skill-level" style="--level: 75%"></div></div>
+            <div class="skill-card"><div class="skill-icon">📱</div><div class="skill-name">Responsive Design</div><div class="skill-level" style="--level: 85%"></div></div>
+          </div>
+        </div>
+        <div class="skills-panel" id="tab-backend">
+          <div class="skill-card-grid">
+            <div class="skill-card"><div class="skill-icon">☕</div><div class="skill-name">Java</div><div class="skill-level" style="--level: 80%"></div></div>
+            <div class="skill-card"><div class="skill-icon">🍃</div><div class="skill-name">SpringBoot</div><div class="skill-level" style="--level: 65%"></div></div>
+            <div class="skill-card"><div class="skill-icon">🗄️</div><div class="skill-name">MySQL</div><div class="skill-level" style="--level: 70%"></div></div>
+            <div class="skill-card"><div class="skill-icon">🐍</div><div class="skill-name">Python</div><div class="skill-level" style="--level: 60%"></div></div>
+          </div>
+        </div>
+        <div class="skills-panel" id="tab-tools">
+          <div class="skill-card-grid">
+            <div class="skill-card"><div class="skill-icon">💻</div><div class="skill-name">VS Code</div><div class="skill-level" style="--level: 90%"></div></div>
+            <div class="skill-card"><div class="skill-icon">🎭</div><div class="skill-name">Canva</div><div class="skill-level" style="--level: 85%"></div></div>
+            <div class="skill-card"><div class="skill-icon">🌐</div><div class="skill-name">WordPress</div><div class="skill-level" style="--level: 60%"></div></div>
+            <div class="skill-card"><div class="skill-icon">💡</div><div class="skill-name">IntelliJ IDEA</div><div class="skill-level" style="--level: 80%"></div></div>
+            <div class="skill-card"><div class="skill-icon">🐙</div><div class="skill-name">GitHub</div><div class="skill-level" style="--level: 75%"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects-section">
+    <div class="section-inner">
+      <div class="section-label">05 — Projects</div>
+      <h2 class="section-title">Featured Work</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" data-aos>
+          <div class="project-number">01</div>
+          <div class="project-image">
+            <img src="STUDY QUIZ SYSTEM.png" alt="Study Quiz System" onerror="this.parentElement.classList.add('img-fallback')">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="btn-icon" title="View Project"><i class="fas fa-eye"></i></a>
+                <a href="https://github.com/Falak2005" target="_blank" class="btn-icon" title="View Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Study Quiz System</h3>
+            <p>An interactive quiz web app allowing users to attempt quizzes, track scores, and review correct answers.</p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos>
+          <div class="project-number">02</div>
+          <div class="project-image">
+            <img src="WEATHER DETECTION.png" alt="Weather Detection" onerror="this.parentElement.classList.add('img-fallback')">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="btn-icon" title="View Project"><i class="fas fa-eye"></i></a>
+                <a href="https://github.com/Falak2005" target="_blank" class="btn-icon" title="View Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Weather Detection App</h3>
+            <p>A weather app that fetches real-time data from an external API to show temperature and conditions for any city.</p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card featured" data-aos>
+          <div class="project-number">03</div>
+          <div class="project-badge">🌿 Featured</div>
+          <div class="project-image img-fallback">
+            <div class="project-overlay" style="opacity:1; position:relative; height:200px; background: linear-gradient(135deg,#0f4c2a,#1a7a3c);">
+              <i class="fas fa-leaf" style="font-size:4rem; color:#4ade80; margin:auto; display:block; text-align:center; padding-top:60px;"></i>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Carbon Credit System</h3>
+            <p>An API-based platform that calculates emissions, analyzes carbon footprints, and rewards eco-friendly actions using real-time environmental data.</p>
+            <div class="project-tech">
+              <span>MERN Stack</span><span>API Integration</span><span>Node.js</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos>
+          <div class="project-number">04</div>
+          <div class="project-image">
+            <img src="PORTFOLIO.png" alt="Personal Portfolio" onerror="this.parentElement.classList.add('img-fallback')">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="btn-icon" title="View Project"><i class="fas fa-eye"></i></a>
+                <a href="https://github.com/Falak2005" target="_blank" class="btn-icon" title="View Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio website with dark/light theme toggle, smooth animations, and a clean modern design.</p>
+            <div class="project-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="certifications-section">
+    <div class="section-inner">
+      <div class="section-label">06 — Certifications</div>
+      <h2 class="section-title">Achievements & Certs</h2>
+      <div class="certs-grid">
+        <div class="cert-card" data-aos>
+          <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+          <div class="cert-info">
+            <h3>Welcome to ServiceNow</h3>
+            <p>Micro-Certification in ServiceNow platform basics</p>
+            <span class="cert-issuer">ServiceNow — 2024</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos>
+          <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+          <div class="cert-info">
+            <h3>Smart India Hackathon (SIH) 2025</h3>
+            <p>National level hackathon participation</p>
+            <span class="cert-issuer">Government of India — 2025</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos>
+          <div class="cert-icon"><i class="fas fa-code"></i></div>
+          <div class="cert-info">
+            <h3>Hackvision Vault 2k25</h3>
+            <p>Hackathon participation & problem solving</p>
+            <span class="cert-issuer">2025</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos>
+          <div class="cert-icon"><i class="fab fa-sketch"></i></div>
+          <div class="cert-info">
+            <h3>Canva Certifications</h3>
+            <p>Graphic design & visual communication</p>
+            <span class="cert-issuer">Canva — 2025</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos>
+          <div class="cert-icon"><i class="fas fa-robot"></i></div>
+          <div class="cert-info">
+            <h3>AI Tools & ChatGPT Workshop</h3>
+            <p>Practical AI tools usage and prompt engineering</p>
+            <span class="cert-issuer">Be10x — 2025</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos>
+          <div class="cert-icon"><i class="fas fa-laptop"></i></div>
+          <div class="cert-info">
+            <h3>Infosys Springboard</h3>
+            <p>Online learning & skill development program</p>
+            <span class="cert-issuer">Infosys — 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OTHERS -->
+  <section id="others" class="others-section">
+    <div class="section-inner">
+      <div class="section-label">07 — Others</div>
+      <h2 class="section-title">Beyond the Code</h2>
+
+      <div class="others-grid">
+
+        <!-- Extracurricular -->
+        <div class="others-card" data-aos>
+          <div class="others-card-header">
+            <div class="others-icon"><i class="fas fa-star"></i></div>
+            <h3>Extracurricular Activities</h3>
+          </div>
+          <ul class="others-list">
+            <li><i class="fas fa-award"></i> 1st & 2nd Rank — Group & Duet Dance Competitions</li>
+            <li><i class="fas fa-award"></i> 3rd Rank — Anchoring Competition</li>
+            <li><i class="fas fa-users"></i> Advisor — Mind Mantra Community (Mental Wellness Club, MMDU)</li>
+            <li><i class="fas fa-female"></i> Member — Women Cell, Seth Jai Parkash Polytechnic</li>
+          </ul>
+        </div>
+
+        <!-- Hobbies & Interests -->
+        <div class="others-card" data-aos>
+          <div class="others-card-header">
+            <div class="others-icon"><i class="fas fa-heart"></i></div>
+            <h3>Interests & Hobbies</h3>
+          </div>
+          <div class="hobbies-grid">
+            <div class="hobby-chip"><i class="fas fa-palette"></i> Lipan Art</div>
+            <div class="hobby-chip"><i class="fas fa-music"></i> Listening Music</div>
+            <div class="hobby-chip"><i class="fas fa-dancing"></i> Dance</div>
+            <div class="hobby-chip"><i class="fas fa-theater-masks"></i> Cultural Activities</div>
+            <div class="hobby-chip"><i class="fas fa-lightbulb"></i> Exploring Tech</div>
+            <div class="hobby-chip"><i class="fas fa-pen-nib"></i> Designing</div>
+            <div class="hobby-chip"><i class="fas fa-puzzle-piece"></i> Problem Solving</div>
+            <div class="hobby-chip"><i class="fas fa-eye"></i> Visual Creativity</div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="others-card" data-aos>
+          <div class="others-card-header">
+            <div class="others-icon"><i class="fas fa-brain"></i></div>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="hobbies-grid">
+            <div class="hobby-chip"><i class="fas fa-comments"></i> Communication</div>
+            <div class="hobby-chip"><i class="fas fa-users"></i> Teamwork</div>
+            <div class="hobby-chip"><i class="fas fa-clock"></i> Time Management</div>
+            <div class="hobby-chip"><i class="fas fa-chess"></i> Decision Making</div>
+            <div class="hobby-chip"><i class="fas fa-crown"></i> Leadership</div>
+            <div class="hobby-chip"><i class="fas fa-sync"></i> Adaptability</div>
+            <div class="hobby-chip"><i class="fas fa-pen"></i> English Writing</div>
+            <div class="hobby-chip"><i class="fas fa-magic"></i> Creative Thinking</div>
+          </div>
+        </div>
+
+        <!-- Position of Responsibility -->
+        <div class="others-card" data-aos>
+          <div class="others-card-header">
+            <div class="others-icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Position of Responsibility</h3>
+          </div>
+          <ul class="others-list">
+            <li><i class="fas fa-hand-holding-heart"></i> Advisor — Mind Mantra Community, A mental wellness club at MMDU</li>
+            <li><i class="fas fa-female"></i> Member — Women Cell, SJPP Damla</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="section-inner">
+      <div class="section-label">08 — Contact</div>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="contact-subtitle">Whether it's a project, collaboration, or just a hello — my inbox is always open.</p>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:falakjoneja2005@gmail.com">falakjoneja2005@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h3>Phone</h3>
+              <a href="tel:+919896149184">+91 9896149184</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h3>Location</h3>
+              <p>Yamunanagar, Haryana, India</p>
+            </div>
+          </div>
+          <div class="social-connect">
+            <h3>Find Me On</h3>
+            <div class="social-row">
+              <a href="https://www.linkedin.com/in/falak-joneja-13a94b2b5/" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+              <a href="https://github.com/Falak2005" target="_blank" class="social-btn github"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://www.instagram.com/falakjoneja" target="_blank" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <div class="form-row">
+            <div class="input-group">
+              <input type="text" id="name" placeholder=" " required>
+              <label for="name">Your Name</label>
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" placeholder=" " required>
+              <label for="email">Your Email</label>
+            </div>
+          </div>
+          <div class="input-group">
+            <input type="text" id="subject" placeholder=" " required>
+            <label for="subject">Subject</label>
+          </div>
+          <div class="input-group">
+            <textarea id="message" placeholder=" " rows="6" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">FJ<span>.</span></div>
+      <p>© 2025 Falak Joneja — Built with HTML, CSS & JavaScript</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/falak-joneja-13a94b2b5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Falak2005" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/falakjoneja" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
