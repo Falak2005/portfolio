@@ -513,12 +513,22 @@ header {
   z-index: 2;
 }
 .project-image {
-  position: relative; height: 200px; overflow: hidden;
+  position: relative;
+  height: 200px !important;
+  max-height: 200px !important;
+  min-height: 200px !important;
+  overflow: hidden !important;
   background: var(--bg3);
+  flex-shrink: 0;
 }
 .project-image img {
-  width: 100%; height: 100%; object-fit: cover;
+  width: 100%;
+  height: 200px !important;
+  max-height: 200px !important;
+  object-fit: cover;
+  object-position: top;
   transition: transform 0.5s ease;
+  display: block;
 }
 .project-image.img-fallback { background: var(--bg3); }
 .project-card:hover .project-image img { transform: scale(1.08); }
