@@ -477,12 +477,15 @@ header {
 .projects-section { background: var(--bg); }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 360px));
+  grid-template-columns: repeat(3, minmax(0, 340px));
   gap: 24px;
   justify-content: center;
-  max-width: 780px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+}
+.project-card:nth-child(4) {
+  grid-column: 1;
 }
 .project-card {
   background: var(--card);
@@ -861,6 +864,11 @@ footer p { color: rgba(255,255,255,0.4); font-size: 0.82rem; }
   .about-highlights { grid-template-columns: 1fr; }
   .contact-container { grid-template-columns: 1fr; }
   .github-stats-grid { grid-template-columns: 1fr; }
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 360px));
+    max-width: 780px;
+  }
+  .project-card:nth-child(4) { grid-column: auto; }
 }
 
 @media (max-width: 768px) {
@@ -884,6 +892,7 @@ footer p { color: rgba(255,255,255,0.4); font-size: 0.82rem; }
     grid-template-columns: 1fr;
     max-width: 400px;
   }
+  .project-card:nth-child(4) { grid-column: auto; }
 }
 
 @media (max-width: 480px) {
